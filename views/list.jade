@@ -1,0 +1,6 @@
+extends layout.jade
+block content
+    h1 Students List
+    ul
+    each student in students
+      li #{student.name}  #{student.age}

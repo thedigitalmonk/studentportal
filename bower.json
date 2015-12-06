@@ -1,0 +1,30 @@
+{
+  "name": "myfirstnodeproject",
+  "description": "My first node project",
+  "main": "index.html",
+  "authors": [
+    "Sobin George Thomas <sobingt@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "simple",
+    "first",
+    "project",
+    "hello",
+    "world"
+  ],
+  "moduleType": [],
+  "homepage": "/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}

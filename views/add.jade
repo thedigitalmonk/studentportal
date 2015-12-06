@@ -1,0 +1,7 @@
+extends layout.jade
+block content
+    h1 Who's the new student?
+    form(action = '/students', method = 'post')
+      input(type='text', name = 'name')
+      input(type='text', name = 'age')
+      input(type='submit')

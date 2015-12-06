@@ -1,0 +1,7 @@
+extends layout.jade
+block content
+    h1 Edit Student Details
+    form(action = '/students', method = 'post')
+      input(type='text', name = 'name' value = "#{student.name}")
+      input(type='text', name = 'age' value = "#{student.age}")
+      input(type='submit')
